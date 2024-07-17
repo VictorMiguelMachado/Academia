@@ -92,6 +92,33 @@
     
 }
 
+@media screen and (max-width: 424px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #000000, #d54c07);
+    }
+
+    img {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width: 400px){
     header {
         flex-direction: column;
@@ -115,6 +142,7 @@
         font-size: 25px;
     }
 }
+
 
 @media screen and (max-width: 318px){
     header {
