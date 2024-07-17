@@ -150,6 +150,9 @@
 @media screen and (max-width: 400px){
     header {
         flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
     }
 
     body {
