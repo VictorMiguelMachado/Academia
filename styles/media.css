@@ -1,0 +1,17 @@
+@media screen and (max-width: 760px){
+    header {
+        flex-direction: column;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #000000, #d54c07);
+    }
+
+    img {
+        display: none;
+    }
+
+    main {
+        display: block;
+    }
+}
