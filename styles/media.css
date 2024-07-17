@@ -119,7 +119,7 @@
     }
 }
 
-@media screen and (max-width: 424px){
+@media screen and (max-width: 490px){
     header {
         flex-direction: column;
         justify-content: center;
